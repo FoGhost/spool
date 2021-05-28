@@ -1,11 +1,12 @@
 module github.com/cloudspannerecosystem/spool
 
-go 1.12
+go 1.15
 
 require (
 	cloud.google.com/go/spanner v1.0.0
 	github.com/alecthomas/kingpin v2.2.6+incompatible
 	github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4 // indirect
+	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gcpug/handy-spanner v0.2.1-0.20191101075156-62d7923c2c4a
 	github.com/gedex/inflector v0.0.0-20170307190818-16278e9db813 // indirect
 	github.com/golangci/golangci-lint v1.18.0
@@ -13,23 +14,28 @@ require (
 	github.com/kelseyhightower/envconfig v1.3.0
 	github.com/knq/snaker v0.0.0-20181215144011-2bc8a4db4687 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
-	github.com/magiconair/properties v1.8.1 // indirect
+	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mercari/wrench v1.0.0
-	github.com/pelletier/go-toml v1.4.0 // indirect
+	github.com/mitchellh/mapstructure v1.4.1 // indirect
+	github.com/pelletier/go-toml v1.9.1 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/rakyll/statik v0.1.6
 	github.com/sirupsen/logrus v1.4.2 // indirect
-	github.com/spf13/afero v1.2.2 // indirect
+	github.com/spf13/afero v1.6.0 // indirect
+	github.com/spf13/cast v1.3.1 // indirect
 	github.com/spf13/cobra v0.0.5 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
-	github.com/spf13/viper v1.4.0 // indirect
-	github.com/stretchr/testify v1.3.0 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/spf13/viper v1.7.1 // indirect
 	go.mercari.io/yo v0.0.0-20190419033223-e658a33fcb4d
 	golang.org/x/net v0.0.0-20191028085509-fe3aa8a45271 // indirect
-	golang.org/x/sys v0.0.0-20191029155521-f43be2a4598c // indirect
-	google.golang.org/api v0.11.0
-	google.golang.org/genproto v0.0.0-20191028173616-919d9bdd9fe6
+	golang.org/x/sys v0.0.0-20210525143221-35b2ab0089ea // indirect
+	golang.org/x/text v0.3.6 // indirect
+	google.golang.org/api v0.13.0
+	google.golang.org/genproto v0.0.0-20191108220845-16a3f7862a1a
 	google.golang.org/grpc v1.24.0
+	gopkg.in/ini.v1 v1.62.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
 replace github.com/go-critic/go-critic v0.0.0-20181204210945-1df300866540 => github.com/go-critic/go-critic v0.3.5-0.20190526074819-1df300866540
